@@ -16,7 +16,13 @@ function getBotResponse(input) {
     } else if (input == "hi") {
         return "Hello ,This bot was made by Ansh. If you wanna know about UN Sustainable Development Goals type 'About UN Goals' ";
     } 
-    else if (input == "About UN Goals") {
+    else if (input == "Hi") {
+        return "Hello ,This bot was made by Ansh. If you wanna know about UN Sustainable Development Goals type 'About UN Goals' ";
+    } 
+    else if (input == "about un goals") {
+        return "The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a 'shared blueprint for peace and prosperity for people and the planet, now and into the future'. The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by 2030. Type 'Details' to know more.";
+    }
+        else if (input == "About UN Goals") {
         return "The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a 'shared blueprint for peace and prosperity for people and the planet, now and into the future'. The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by 2030. Type 'Details' to know more.";
 }
 else if (input == "Details") {
